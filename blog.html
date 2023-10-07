@@ -3,30 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&family=Montserrat:wght@400;700&family=Poppins:wght@300;400;500;600&family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/blog.css" />
+    <title>My Simple Blog</title>
   </head>
-  <body link="#000" alink="#017bf5" vlink="#000">
-    <br />
-    <h3 align="center">
-      <font face="Lato" size="6"><a href="index.html">Home</a></font>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <font face="cinzel" size="4">
-        <a href="contact.html">CONTACT</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="recipe.html">RECIPE</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="blog.html">BLOG</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <!-- <a href="#">EDUCATION</a>&nbsp;&nbsp;&nbsp;&nbsp; -->
-      </font>
-    </h3>
-    <br /><br /><br /><br />
-    <!-- <br /><br /><br /><br /><br /><br /> -->
-    <section align="center">
-      <header>
-        <h1>My Simple Blog</h1>
-      </header>
-
+  <body>
+    <header>
+      <h1>My Simple Blog</h1>
+    </header>
+    <nav>
+      <a href="index.html">HOME</a>
+      <a href="contact.html">CONTACT</a>
+      <a href="blog.html">BLOG</a>
+    </nav>
+    <div class="container">
       <article>
         <h2>Post Title 1</h2>
         <p>
@@ -39,10 +34,8 @@
           nec hendrerit arcu ultrices. Vestibulum eu ex sed quam fermentum
           fermentum.
         </p>
-        <p>Read more...</p>
+        <p><a href="#">Read more...</a></p>
       </article>
-      <br />
-      <br />
       <article>
         <h2>Post Title 2</h2>
         <p>
@@ -55,10 +48,8 @@
           quis dictum hendrerit, metus urna interdum ipsum, vel pellentesque
           nisl eros nec nulla.
         </p>
-        <p>Read more...</p>
+        <p><a href="#">Read more...</a></p>
       </article>
-      <br />
-      <br />
       <aside>
         <h3>About the Author</h3>
         <p>
@@ -66,10 +57,9 @@
           stories with readers.
         </p>
       </aside>
-
-      <footer>
-        <p>&copy; 2023 My Simple Blog</p>
-      </footer>
-    </section>
+    </div>
+    <footer>
+      <p>&copy; 2023 My Simple Blog</p>
+    </footer>
   </body>
 </html>
